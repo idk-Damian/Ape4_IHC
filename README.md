@@ -208,3 +208,6 @@ Una acción principal por pantalla, precios y total siempre visibles, etiquetas 
 6. Documento PDF con la explicación didáctica del proceso
 7. Enlace al archivo de Figma — al inicio de este README
 
+## Entrega APE 4 — Fase 1
+
+[Consultar la documentación y los productos de CaféU](APE4_Fase1/README.md)
