@@ -1,0 +1,64 @@
+﻿codigo,version,pantalla,titulo,descripcion,ruta,archivo_original
+E01,Inicial,,Inicio con pedido vacío,Acceso al menú y contador 0 antes de seleccionar productos.,evidencias/antes/E01_inicio-con-pedido-vacio.png,image(20261024-213119).png
+E02,Inicial,,Menú completo,"Catálogo de dos productos con precio, búsqueda y categorías.",evidencias/antes/E02_menu-completo.png,image(20261024-213136).png
+E03,Inicial,,Filtro de bebidas,Solo se muestra café; el pedido existente conserva 2 unidades.,evidencias/antes/E03_filtro-de-bebidas.png,image(20261024-213149).png
+E04,Inicial,,Filtro de comida,Solo se muestra sanduche; el contador sigue en 2 unidades.,evidencias/antes/E04_filtro-de-comida.png,image(20261024-213200).png
+E05,Inicial,,Búsqueda de café,La consulta tiene foco visible y devuelve una coincidencia.,evidencias/antes/E05_busqueda-de-cafe.png,image(20261024-213211).png
+E06,Inicial,,Búsqueda sin coincidencias,La consulta té muestra una explicación y Limpiar búsqueda.,evidencias/antes/E06_busqueda-sin-coincidencias.png,image(20261024-213227).png
+E07,Inicial,,Detalle de café,"Cantidad 1, precio unitario y subtotal de $1,50.",evidencias/antes/E07_detalle-de-cafe.png,image(20261024-213255).png
+E08,Inicial,,Detalle de sanduche,"Cantidad 1 y subtotal $2,75; ya hay un café en el pedido.",evidencias/antes/E08_detalle-de-sanduche.png,image(20261024-213318).png
+E09,Inicial,,Cantidad inválida,"El valor 0 tiene mensaje, icono y borde; Agregar está deshabilitado.",evidencias/antes/E09_cantidad-invalida.png,image(20261024-213331).png
+E10,Inicial,,Cantidad corregida,"El valor 2 produce subtotal $3,00 y permite agregar.",evidencias/antes/E10_cantidad-corregida.png,image(20261024-213346).png
+E11,Inicial,,Producto agregado,"La revisión informa el agregado de un café por $1,50.",evidencias/antes/E11_producto-agregado.png,image(20261024-213358).png
+E12,Inicial,,Pedido base,"Un café y un sanduche suman 2 unidades y $4,25.",evidencias/antes/E12_pedido-base.png,image(20261024-213416).png
+E13,Inicial,,Pedido vacío,"Total $0,00, acceso al catálogo y confirmación deshabilitada.",evidencias/antes/E13_pedido-vacio.png,image(20261024-213443).png
+E14,Inicial,,Borrador base,"La edición parte de 2 unidades y $4,25.",evidencias/antes/E14_borrador-base.png,image(20261024-213455).png
+E15,Inicial,,Borrador modificado,"Dos cafés y un sanduche suman 3 unidades y $5,75.",evidencias/antes/E15_borrador-modificado.png,image(20261024-213515).png
+E16,Inicial,,Modal para quitar sanduche,Identifica producto y cantidad; permite cancelar o quitar.,evidencias/antes/E16_modal-para-quitar-sanduche.png,image(20261024-213535).png
+E17,Inicial,,Sanduche retirado del pedido base,"En este escenario queda un café por $1,50.",evidencias/antes/E17_sanduche-retirado-del-pedido-base.png,image(20261024-213543).png
+E18,Inicial,,Modal de descarte,"Explica que se recuperaría el pedido de 2 unidades y $4,25.",evidencias/antes/E18_modal-de-descarte.png,image(20261024-213558).png
+E19,Inicial,,Borrador vacío,Guardar está deshabilitado; se puede agregar o cancelar.,evidencias/antes/E19_borrador-vacio.png,image(20261024-213626).png
+E20,Inicial,,Catálogo dentro de la edición,El encabezado muestra Borrador 3 y Volver a editar.,evidencias/antes/E20_catalogo-dentro-de-la-edicion.png,image(20261024-213710).png
+E21,Inicial,,Borrador vacío repetido,Segunda evidencia del mismo estado lógico mostrado en E19.,evidencias/antes/E21_borrador-vacio-repetido.png,image(20261024-214030).png
+E22,Inicial,,Cambios guardados,"La revisión consolida 3 unidades y $5,75 con retroalimentación.",evidencias/antes/E22_cambios-guardados.png,image(20261024-214055).png
+E23,Inicial,,Procesamiento del pedido base,"Se conserva el resumen de $4,25 y las acciones parecen inactivas.",evidencias/antes/E23_procesamiento-del-pedido-base.png,image(20261024-214112).png
+E24,Inicial,,Fallo con selección conservada,"El pedido de $4,25 permanece visible con Reintentar y Volver a revisar.",evidencias/antes/E24_fallo-con-seleccion-conservada.png,image(20261024-214125).png
+E25,Inicial,,Reintento en curso,La representación visual coincide con el procesamiento inicial.,evidencias/antes/E25_reintento-en-curso.png,image(20261024-214159).png
+E26,Inicial,,Confirmación del pedido base,"CU-104 recibido por $4,25; el contador de selección está en 0.",evidencias/antes/E26_confirmacion-del-pedido-base.png,image(20261024-214158).png
+E27,Inicial,,Procesamiento del pedido modificado,"Se conservan 3 unidades y $5,75 durante el envío.",evidencias/antes/E27_procesamiento-del-pedido-modificado.png,image(20261024-214218).png
+E28,Inicial,,Confirmación alternativa modificada,"CU-104 recibido por $5,75; variante del primer pedido.",evidencias/antes/E28_confirmacion-alternativa-modificada.png,image(20261024-214234).png
+E29,Inicial,,Catálogo para otro pedido,El menú vuelve a mostrar contador 0 y los dos productos.,evidencias/antes/E29_catalogo-para-otro-pedido.png,image(20261024-214256).png
+E30,Inicial,,Confirmación del siguiente pedido,"CU-105 contiene un café y total $1,50.",evidencias/antes/E30_confirmacion-del-siguiente-pedido.png,image(20261024-214307).png
+C01,Corregida,P1,Inicio vacío,Acceso al menú y contador 0 antes de preparar una selección.,evidencias/despues/C01_inicio-vacio.png,image(20261025-004147).png
+C02,Corregida,P2,Menú completo,"Dos productos, precios y acciones con el nombre de cada producto.",evidencias/despues/C02_menu-completo.png,image(20261025-004201).png
+C03,Corregida,P2,Filtro bebidas,Una coincidencia de café; la selección base conserva 2 unidades.,evidencias/despues/C03_filtro-bebidas.png,image(20261025-004214).png
+C04,Corregida,P2,Filtro comida,Una coincidencia de sanduche; el contador conserva 2 unidades.,evidencias/despues/C04_filtro-comida.png,image(20261025-004231).png
+C05,Corregida,P2,Búsqueda de café,Campo con foco visible y resultado que coincide con la consulta.,evidencias/despues/C05_busqueda-de-cafe.png,image(20261025-004239).png
+C06,Corregida,P2,Búsqueda sin resultados,La consulta té muestra explicación y permite limpiar la búsqueda.,evidencias/despues/C06_busqueda-sin-resultados.png,image(20261025-004249).png
+C07,Corregida,P3,Detalle de café,"Cantidad 1 y subtotal $1,50; incluye restablecer y cancelar.",evidencias/despues/C07_detalle-de-cafe.png,image(20261025-004322).png
+C08,Corregida,P3,Detalle de sanduche,"Cantidad 1 y subtotal $2,75; existe un café en la selección.",evidencias/despues/C08_detalle-de-sanduche.png,image(20261025-004335).png
+C09,Corregida,P3,Cantidad cero inválida,"Regla textual, restablecimiento y agregado inactivo; subtotal no calculado.",evidencias/despues/C09_cantidad-cero-invalida.png,image(20261025-004348).png
+C10,Corregida,P3,Cantidad válida 2,"Dos cafés producen $3,00; el agregado vuelve a representarse activo.",evidencias/despues/C10_cantidad-valida-2.png,image(20261025-004400).png
+C11,Corregida,P4,Café agregado,"El mensaje nombra 1 café americano y la revisión muestra $1,50.",evidencias/despues/C11_cafe-agregado.png,image(20261025-004504).png
+C12,Corregida,P4,Pedido base,"1 café + 1 sanduche; 2 unidades; $4,25. El texto identifica el sanduche agregado.",evidencias/despues/C12_pedido-base.png,image(20261025-004514).png
+C13,Corregida,P4,Pedido vacío,"0 unidades y $0,00; se ofrece ver menú y confirmar aparece inactivo.",evidencias/despues/C13_pedido-vacio.png,image(20261025-004532).png
+C14,Corregida,P5,Edición inicial,"Aviso de guardado manual, edición en curso y restablecimiento en cada línea.",evidencias/despues/C14_edicion-inicial.png,image(20261025-004554).png
+C15,Corregida,P5,Borrador de 3 unidades,"Cambios sin guardar; 2 cafés + 1 sanduche; $5,75; multiplicación por precio.",evidencias/despues/C15_borrador-de-3-unidades.png,image(20261025-004615).png
+C16,Corregida,P5,Confirmar eliminación,Modal que identifica el sanduche y permite quitar o cancelar.,evidencias/despues/C16_confirmar-eliminacion.png,image(20261025-004631).png
+C17,Corregida,P5,Sanduche retirado del base,"Rama independiente: queda 1 café por $1,50 y cambios sin guardar.",evidencias/despues/C17_sanduche-retirado-del-base.png,image(20261025-004654).png
+C18,Corregida,P5,Descartar cambios,"Modal informa que se conservarían las 2 unidades del pedido guardado por $4,25.",evidencias/despues/C18_descartar-cambios.png,image(20261025-004711).png
+C19,Corregida,P5,Borrador vacío,Guardar inactivo; permite agregar producto o cancelar la edición.,evidencias/despues/C19_borrador-vacio.png,image(20261025-004748).png
+C20,Corregida,P2,Catálogo desde la edición,Se informa que los productos se agregan al borrador; acceso «Volver a editar».,evidencias/despues/C20_catalogo-desde-la-edicion.png,image(20261025-004803).png
+C21,Corregida,P4,Cambios guardados,"Mensaje explícito de consolidación; 3 unidades y $5,75 en la revisión.",evidencias/despues/C21_cambios-guardados.png,image(20261025-005107).png
+C22,Corregida,P4,Envío del pedido base,"Procesamiento con resumen de $4,25 y acciones visualmente inactivas.",evidencias/despues/C22_envio-del-pedido-base.png,image(20261025-005119).png
+C23,Corregida,P4,Fallo de envío,"Selección conservada por $4,25; reintentar o volver a revisar.",evidencias/despues/C23_fallo-de-envio.png,image(20261025-005132).png
+C24,Corregida,P4,Reintento en curso,Reutiliza «Enviando tu pedido…» y conserva el resumen base.,evidencias/despues/C24_reintento-en-curso.png,image(20261025-005142).png
+C25,Corregida,P6,CU-104 base,"Pedido recibido de 2 unidades por $4,25; selección activa en 0.",evidencias/despues/C25_cu-104-base.png,image(20261025-005202).png
+C26,Corregida,P4,Envío del modificado,"Variante con 3 unidades y $5,75 durante el procesamiento.",evidencias/despues/C26_envio-del-modificado.png,image(20261025-005215).png
+C27,Corregida,P6,CU-104 modificado,"Variante alternativa del primer comprobante: 3 unidades y $5,75.",evidencias/despues/C27_cu-104-modificado.png,image(20261025-005226).png
+C28,Corregida,P2,Nuevo pedido vacío,El menú vuelve al contador 0 después de iniciar otro pedido.,evidencias/despues/C28_nuevo-pedido-vacio.png,image(20261025-005236).png
+C29,Corregida,P6,Siguiente pedido CU-105,"Nuevo comprobante con 1 café y $1,50; no es el pedido base.",evidencias/despues/C29_siguiente-pedido-cu-105.png,image(20261025-005248).png
+C30,Corregida,P5,Cantidad vacía en edición,"Regla junto al campo, restablecer, importes no calculados y guardar inactivo.",evidencias/despues/C30_cantidad-vacia-en-edicion.png,image(20261025-005314).png
+C31,Corregida,P5,Borrador de 4 unidades,"3 cafés + 1 sanduche; $7,25. Permite reconocer el incremento adicional.",evidencias/despues/C31_borrador-de-4-unidades.png,image(20261025-005325).png
+C32,Corregida,P3,Café desde el borrador,"El contexto se mantiene: «Volver a editar», «Borrador» y «Agregar al borrador».",evidencias/despues/C32_cafe-desde-el-borrador.png,image(20261025-005336).png
+C33,Corregida,P3,Sanduche desde el borrador,"Mismo contexto de edición para el sanduche, con restablecer y cancelar.",evidencias/despues/C33_sanduche-desde-el-borrador.png,image(20261025-005348).png
